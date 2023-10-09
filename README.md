@@ -2,6 +2,10 @@
 
 [Gophercises](https://courses.calhoun.io/lessons/les_goph_01)
 
+Learned about:
+
+Command line flags
+
 
 # Exercise #1: Quiz Game
 
