@@ -4,7 +4,6 @@ import "flag"
 
 type Values struct {
 	CsvFileName *string
-	MyBoolVar   *bool
 }
 
 var flagObj Values
@@ -24,9 +23,7 @@ func Initialize() {
 		Full Details:
 		https://github.com/golang/go/blob/master/src/flag/flag.go
 	*/
-	//flagObj.CsvFileName = flag.String("csv", "problems.csv", "CSV file containing quiz question answers")
-
-	flagObj.MyBoolVar = flag.Bool("boolVar", false, "Trying bool variable")
+	flagObj.CsvFileName = flag.String("csv", "problems.csv", "CSV file containing quiz question answers")
 
 	// to parse the command line into the defined flags.
 	flag.Parse()
