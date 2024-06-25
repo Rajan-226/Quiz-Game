@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/myProjects/Quiz-Game/app/errors"
-	"github.com/myProjects/Quiz-Game/app/flags"
+	"github.com/Rajan-226/Quiz-Game/app/errors"
+	"github.com/Rajan-226/Quiz-Game/app/flags"
 )
 
 type IProblem interface {

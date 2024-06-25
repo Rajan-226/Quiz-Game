@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/myProjects/Quiz-Game/app/flags"
-	"github.com/myProjects/Quiz-Game/app/problems"
+	"github.com/Rajan-226/Quiz-Game/app/flags"
+	"github.com/Rajan-226/Quiz-Game/app/problems"
 )
 
 func main() {
